@@ -1,7 +1,13 @@
+import Footer from "@/components/footer";
+import Header from "@/components/header";
+
+import Esmeril from "./esmeril/page";
+
 export default function Home() {
   return (
     <div>
-      <h1>Hello asdas!</h1>
+      <Header />
+      <Footer />
     </div>
   );
 }

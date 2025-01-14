@@ -7,7 +7,7 @@
     "specs": {
       "Alimentação": "mono",
       "Tensão": "220V",
-      "Proteção fixa monitorada": "sem monitorada",
+      "Proteção Policarbonato": "sem monitorada",
       "Freio": "sem freio"
     }
   },
@@ -19,7 +19,7 @@
     "specs": {
       "Alimentação": "tri",
       "Tensão": "220V",
-      "Proteção fixa monitorada": "sem monitorada",
+      "Proteção Policarbonato": "sem monitorada",
       "Freio": "sem freio"
     }
   },
@@ -31,7 +31,7 @@
     "specs": {
       "Alimentação": "tri",
       "Tensão": "380V",
-      "Proteção fixa monitorada": "sem monitorada",
+      "Proteção Policarbonato": "sem monitorada",
       "Freio": "sem freio"
     }
   },
@@ -43,7 +43,7 @@
     "specs": {
       "Alimentação": "tri",
       "Tensão": "220V",
-      "Proteção fixa monitorada": "sem monitorada",
+      "Proteção Policarbonato": "sem monitorada",
       "Freio": "freio"
     }
   },
@@ -55,7 +55,7 @@
     "specs": {
       "Alimentação": "tri",
       "Tensão": "380V",
-      "Proteção fixa monitorada": "sem monitorada",
+      "Proteção Policarbonato": "sem monitorada",
       "Freio": "freio"
     }
   },
@@ -67,7 +67,7 @@
     "specs": {
       "Alimentação": "mono",
       "Tensão": "220V",
-      "Proteção fixa monitorada": "monitorada",
+      "Proteção Policarbonato": "monitorada",
       "Freio": "sem freio"
     }
   }
