@@ -37,7 +37,6 @@ export default function Esmeril() {
       return;
     }
 
-    //TODO:  fix this TS error
     setChosenEsmeril(allExistingEsmeris[matchIndex]);
   }
 

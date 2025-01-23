@@ -2,10 +2,10 @@
 
 // Tipo para as especificações técnicas
 export type EsmerilSpecsT = {
-  Alimentação: "mono" | "tri";
-  Tensão: "220V" | "380V";
-  "Proteção Policarbonato": "monitorada" | "sem monitorada";
-  Freio: "freio" | "sem freio";
+  Alimentação: string; // mono | tri
+  Freio: string; //"freio" | "sem freio";
+  "Proteção Policarbonato": string; //"monitorada" | "sem monitorada";
+  Tensão: string; //"220V" | "380V";
 };
 
 // Interface principal do esmeril
