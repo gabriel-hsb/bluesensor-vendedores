@@ -5,9 +5,8 @@ import Esmeril from "./esmeril/page";
 
 export default function Home() {
   return (
-    <div>
-      <Header />
-      <Footer />
-    </div>
+    <>
+      <h1>Ferramenta para Vendedores - BlueSensor </h1>
+    </>
   );
 }
