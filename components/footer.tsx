@@ -5,6 +5,8 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 
+import Image from "next/image";
+
 export default function Footer() {
   return (
     <footer className="py-2 text-center dark:bg-zinc-950">
@@ -21,7 +23,8 @@ export default function Footer() {
             </a>
           </TooltipTrigger>
           <TooltipContent>
-            <img
+            <Image
+              alt="GitHub Profile Picture"
               className="max-w-20 py-2"
               src="https://github.com/gabriel-hsb.png"
             />

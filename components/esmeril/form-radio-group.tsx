@@ -9,7 +9,7 @@ import TypographySubheader from "../ui/custom/typography/typography-subheader";
 import { PossibleSpecsT, OptionT } from "@/types/esmeril/esmeril";
 
 type Props = PossibleSpecsT & {
-  setChosenEsmerilConfigs: any;
+  setChosenEsmerilConfigs: React.Dispatch<React.SetStateAction<any>>;
   specificationDone: boolean;
   isLoading: boolean;
 };
@@ -24,8 +24,8 @@ export default function FormRadioGroup({
 }: Props) {
   const [disableInputs, setDisableInputs] = useState(false);
 
-  const handleRadioInputChange = ({ target }: any) => {
-    const { value } = target;
+  const handleRadioInputChange = (e: React.MouseEvent<HTMLButtonElement>) => {
+    const { value } = e.currentTarget;
 
     setChosenEsmerilConfigs((prevChosenEsmerilConfigs: OptionT) => {
       const newConfigs = {
@@ -51,7 +51,7 @@ export default function FormRadioGroup({
         <TypographySubheader> {descr} </TypographySubheader>
       </div>
       <RadioGroup className="flex items-center gap-6">
-        {options.map(({ name, value }: any) => {
+        {options.map(({ name, value }: { name: string; value: string }) => {
           return (
             <div key={name} className="flex items-center space-x-2">
               <div>

@@ -1,4 +1,4 @@
-export default function (number: number) {
+export default function NumberToCurrency(number: number): string | null {
   if (isNaN(number)) return null;
 
   return new Intl.NumberFormat("pt-BR", {
