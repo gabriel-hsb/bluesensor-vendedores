@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Pepperl+Fuchs FA",
+    "discount": 37,
+    "img": "./calculadora/pepperl-fuchs.svg"
+  },
+  {
+    "name": "Pepperl+Fuchs PA",
+    "discount": 0,
+    "img": "./calculadora/pepperl-fuchs.svg"
+  },
+  {
+    "name": "Camozzi",
+    "discount": 50,
+    "img": "./calculadora/camozzi.svg"
+  },
+  {
+    "name": "Schmersal",
+    "discount": 0,
+    "img": "./calculadora/schmersal.svg"
+  }
+]

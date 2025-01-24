@@ -17,7 +17,7 @@ export default function ModeToggle() {
   }
 
   return (
-    <Toggle onClick={toggleTheme}>
+    <Toggle variant={"outline"} onClick={toggleTheme}>
       {theme === "dark" ? <Moon /> : <Sun />}
     </Toggle>
   );

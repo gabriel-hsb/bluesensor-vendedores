@@ -1,6 +1,6 @@
 "use client";
 
-import { FormEvent, useState } from "react";
+import React, { useState } from "react";
 
 import { Loader2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -40,7 +40,7 @@ export default function Esmeril() {
     setChosenEsmeril(allExistingEsmeris[matchIndex]);
   }
 
-  function handleSubmit(e: FormEvent) {
+  function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     setIsLoading(true);
 
@@ -67,7 +67,7 @@ export default function Esmeril() {
 
   return (
     <>
-      <section className="min-h-[calc(100dvh-1.5rem+5rem)] animate-entrance-left">
+      <section className="min-h-[calc(100dvh-8rem)] animate-entrance-left">
         <div className="mx-auto my-2 max-w-[75rem] px-3 sm:my-7 sm:px-6">
           <form onSubmit={handleSubmit}>
             {esmerilSpecs.map(({ title, options, descr }) => (
